@@ -9,7 +9,21 @@
 		<title>Leandro Alvarez</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="A brief description of your page content in 140 characters or less for SEO purposes.">
+
+	  
+		<!-- Author -->
+		<meta name="author" content="Leandro Alvarez">
+	  
+		<!-- Keywords -->
+		
+		<meta name="keywords" content="Leandro Alvarez, Leandro, Alvarez">
+	  
+		<!-- Robots -->
+		<meta name="robots" content="index, follow">
+
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/favicon-32x32.png" type="image/png">
 	</head>
 	<body class="is-preload">
 
@@ -56,25 +70,25 @@
 						<h2>Recent Work Experience</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a class="image fit thumb" href="https://headstarter.co/" ><img class = 'work-experience' src="images/thumbs/headstarter.png" alt="" /></a>
+								<a class="image fit thumb" target = "_blank" rel="noopener noreferrer" href="https://headstarter.co/" ><img class = 'work-experience' src="images/thumbs/headstarter.png" alt="card of headstarter website" /></a>
 								<h3>Software Engineer Fellowship (current)</h3>
 								<p>Work in a team to build 5 AI projects. Final project will be to
 									 startup’s current backlog and build it meeting business requirements </p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://test-dreams.dreamhosters.com/" class="image fit thumb"><img src="images/thumbs/community dreams foundation.jpeg" alt="" /></a>
+								<a href="https://test-dreams.dreamhosters.com/" target = "_blank" rel="noopener noreferrer"  class="image fit thumb"><img src="images/thumbs/community dreams foundation.jpeg" alt="card of community dreams foundation website" /></a>
 								<h3>Incoming Data Science Intern</h3>
 								<p>Currently waiting for more information</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://www.codeplatoon.org/about-code-platoon/" class="image fit thumb"><img src="images/thumbs/code platoon.png" alt="" /></a>
+								<a href="https://www.codeplatoon.org/about-code-platoon/" target = "_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/thumbs/code platoon.png" alt = "card of code platoon website" /></a>
 								<h3>Software Engineer TA Intern</h3>
 								<p>Supported & Assisted Students in a 15 week immtersive Fullstack Development Bootcamp.
 									Mastered Python & Django, JavaScript & React, and Postgres SQL, using these to drive project
 									development. As a Teaching Assistant at Code Platoon, supported veteran learners with these skills</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/lalva224/OpenAdventureGameBackup/tree/master" class="image fit thumb"><img class="open-adventure" src="images/thumbs/open adventure game.png" alt="" /></a>
+								<a href="https://github.com/lalva224/OpenAdventureGameBackup/tree/master"  target = "_blank" rel="noopener noreferrer" class="image fit thumb"><img class="open-adventure" alt =" card of open adventure game" src="images/thumbs/open adventure game.png" alt="" /></a>
 								<h3>Open Adventure Game</h3>
 								<p>Code platoon final project. Leverage Open AI api and DALLE to create an open adventure game,
 									 where the user either selects 3 options or types a wildcard decision.Tech Stack was React, Django, Postgres.</p>
@@ -86,20 +100,72 @@
 						</ul> -->
 					</section>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Feel free to contact me if you're interested in collaborating or
-							 learning more about my work. I'm always open to discussing new projects, 
-							 creative ideas, or ways to contribute to your team. I look forward to connecting 
-							 with you!
+				
 
-
-
-
-
-
+<!-- Three -->
+      <section id="three">
+        <h2>Get In Touch</h2>
+       
+		<p>Feel free to contact me if you're interested in collaborating or
+			 learning more about my work. I'm always open to discussing new projects, 
+			 creative ideas, or ways to contribute to your team. I look forward to connecting 
+			with you!
 						</p>
+        <div class="row">
+          <div class="col-8 col-12-small">
+            <form
+              method="POST"
+              action="https://getform.io/f/bvremggb" 
+              class="row gtr-uniform gtr-50"
+			  id = 'myform'
+            >
+              <input type="hidden" name="subject" id="subject" />
+              <div class="col-6 col-12-xsmall">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="col-6 col-12-xsmall">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <div
+                  class="h-captcha"
+                  data-sitekey="a3a0feb2-f424-4848-8838-a640bea6ae62"
+                  data-callback="onVerify"
+                ></div>
+              </div>
+              <div class="col-12">
+                <ul class="actions">
+                  <li>
+                    <input type="submit" value="Send Message" />
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+						
 						<!-- <div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
@@ -113,7 +179,7 @@
 									<li><input id = 'submit' type="submit" value="Send Message" /></li>
 								</ul>
 							</div> -->
-							<div class="container">
+							<!-- <div class="container"> -->
 								<!-- <ul class="labeled-icons">
 									
 									<li>
@@ -125,10 +191,10 @@
 										<a href="#">alvarezleandro720@gmail.com</a>
 									</li>
 								</ul> -->
-								<button class="button-27" role="button">
+								<!-- <button class="button-27" role="button">
 									<a class = 'no-style-link' href="mailto:alvarezleandro720@gmail.com">Email Me!</a>
 									</button>
-							</div>
+							</div> -->
 							<!-- <a href="mailto:alvarezleandro720@gmail.com">email</a> -->
 						</div>
 					</section>
@@ -476,6 +542,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script type = "module" src="assets/js/send_email.js"></script>
+			<script src = "assets/js/reset-form.js"></script>
 
 	</body>
 </html>
