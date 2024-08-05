@@ -54,14 +54,17 @@
 	justify-content: center;
   }
   .no-style-link {
-	text-decoration: none; /* Removes the underline */
+	text-decoration: none; /* Removes the underlinre */
 	color: inherit; /* Inherits the text color from the parent element */
 	display: block; /* Makes the link cover the entire button area */
 	width: 100%; /* Full width of the parent button */
 	height: 100%; /* Full height of the parent button */
 	outline: none;
   }
-
+.center{
+	display: flex;
+	justify-content: center;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
